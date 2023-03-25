@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/k-evstigneev/music/octave"
-	"github.com/k-evstigneev/music/scales"
+	"github.com/k-evstigneev/go-music/octave"
+	"github.com/k-evstigneev/go-music/scales"
 )
 
 func main() {

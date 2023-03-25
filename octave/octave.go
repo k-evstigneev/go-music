@@ -10,11 +10,13 @@ type Note struct {
 	Next  *Note
 }
 
+// LoopedSequence can be replaced with ring
 type LoopedSequence struct {
 	root *Note
 }
 
-var allNoteLabels = []string{"C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"}
+// var allNoteLabels = []string{"C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"}
+var allNoteLabels = []string{"C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"}
 var allNotesLoopedSequence = CreateOctaveLoop()
 
 func CreateOctaveLoop() *LoopedSequence {
